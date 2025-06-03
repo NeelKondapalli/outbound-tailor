@@ -50,14 +50,33 @@ Conduct exactly 2 searches:
 ## Required Elements:
 1. **Specific Recent Achievement**: Reference concrete developments from last 6-12 months (funding, partnerships, product launches)
 2. **Technical Understanding**: Show you grasp their core product/technology
-3. **University Market Angle**: Connect to campus expansion or Gen-Z market opportunity
-4. **VSS Value Proposition**: Position as capable of helping with go-to-market or user acquisition
+3. **University Market Angle**: Connect to campus expansion or student adoption opportunity
+4. **VSS Value Proposition**: Position as capable of helping with market strategy
 
 ## Style Guidelines:
-- **Concise but specific** - aim for 25-35 words total. Use jargon and technical terms; sound smart.
+- **Concise but specific** - aim for 25-30 words total. Use jargon and technical terms; sound smart.
 - **Enthusiastic tone** - show genuine excitement
 - **Technical details** - use exact names, numbers, features
-- **Confident positioning** - VSS can "help accelerate," "engineer strategies," "boost," etc.
+- **Confident positioning** - VSS can help with various growth strategies
+
+## University Market Angles (vary these):
+- "campus market penetration" 
+- "Berkeley developer adoption"
+- "university go-to-market strategy"
+- "Gen-Z adoption strategies"
+- "student acquisition playbook"
+- "campus expansion strategies"
+- "university-to-enterprise pilots"
+
+## VSS Value Propositions (vary these):
+- "help accelerate"
+- "engineer strategies" 
+- "refine your GTM"
+- "boost market penetration"
+- "craft acquisition strategies"
+- "design market research"
+- "optimize go-to-market"
+- "scale adoption strategies"
 
 ## Example Intros:
 
@@ -74,8 +93,8 @@ Conduct exactly 2 searches:
 1. Use the 2 search results to find recent developments and understand their core business
 2. Be specific with names, numbers, and technical details
 3. Keep total length under 35 words
-4. Connect their growth to university market opportunity
-5. Position VSS confidently as growth accelerators
+4. VARY your university market angle and VSS value proposition - don't repeat the same phrases
+5. For tech companies, consider "Berkeley developer adoption" as a specific angle
 
 ## CRITICAL OUTPUT REQUIREMENT:
 Return ONLY the 1-2 sentence cold email intro (25-35 words). Do NOT include:
