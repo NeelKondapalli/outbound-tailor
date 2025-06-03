@@ -40,63 +40,75 @@ You are tasked with creating compelling 1-2 sentence cold email intros for tech 
 Return exactly 1-2 sentences following the style and structure of the examples. No additional commentary, explanations, or formatting - just the intro sentences. Again, ONLY return the 1-2 intro sentences, no other text.
 """
 
-prompt2 = """You are tasked with creating compelling 1-2 sentence cold email intros for tech companies. You will receive search results about a company and must craft an introduction that demonstrates research while positioning VSS (our Berkeley consulting club) as valuable for university market expansion.
+prompt2 = """
+You are tasked with creating compelling 1-2 sentence cold email intros for tech companies. You will receive search results about a company and must craft an introduction that demonstrates research while positioning VSS (our Berkeley consulting club) as valuable for university market expansion.
 
-## Search Instructions:
+Search Instructions:
 Conduct exactly 2 searches:
-1. "[Company name] what does the company do products"
-2. "[Company name] recent news funding partnership 2024 2025"
+- [Company name] what does the company do products
+- [Company name] recent news funding partnership 2024 2025
 
-## Required Elements:
-1. **Specific Recent Achievement**: Reference concrete developments from last 6-12 months (funding, partnerships, product launches)
-2. **Technical Understanding**: Show you grasp their core product/technology
-3. **University Market Angle**: Connect to campus expansion or student adoption opportunity
-4. **VSS Value Proposition**: Position as capable of helping with market strategy
+Required Elements:
+Strategic Product/Partnership Insight: Reference meaningful business developments (partnerships, product launches, strategic moves) - avoid superficial funding mentions unless they reveal strategic direction
+Technical Understanding: Show you grasp their core product/technology and business model
+University Market Angle: Connect to campus expansion or student adoption opportunity
+VSS Value Proposition: Position as capable of helping with market strategy
 
-## Style Guidelines:
-- **Concise but specific** - aim for 25-30 words total. Use jargon and technical terms; sound smart.
-- **Enthusiastic tone** - show genuine excitement
-- **Technical details** - use exact names, numbers, features
-- **Confident positioning** - VSS can help with various growth strategies
+Style Guidelines:
+Concise but punchy - aim for 25-35 words total
+Confident and enthusiastic tone - show genuine excitement about their product/technology
+Strategic focus - emphasize what makes their approach unique or game-changing
+Sound smart with technical jargon but keep it accessible
+Lead with product strength, follow with opportunity
 
-## University Market Angles (vary these):
-- "campus market penetration" 
-- "Berkeley developer adoption"
-- "university go-to-market strategy"
-- "Gen-Z adoption strategies"
-- "student acquisition playbook"
-- "campus expansion strategies"
-- "university-to-enterprise pilots"
+University Market Angles (vary these):
+campus market penetration
+Berkeley developer adoption
+university go-to-market strategy
+Gen-Z adoption strategies
+student acquisition playbook
+campus expansion strategies
+university-to-enterprise pilots
+developer adoption showcase
+campus conquest blueprint
+early adopter growth engine
 
-## VSS Value Propositions (vary these):
-- "help accelerate"
-- "engineer strategies" 
-- "refine your GTM"
-- "boost market penetration"
-- "craft acquisition strategies"
-- "design market research"
-- "optimize go-to-market"
-- "scale adoption strategies"
+VSS Value Propositions (vary these):
+help you dominate
+let us help you own
+help you crack the code
+help accelerate
+craft strategies
+design market research
+optimize go-to-market
+scale adoption strategies
+turn [X] into your [Y]
+make [campus] your [outcome]
 
-## Example Intros:
+Example Intros:
+Modal's serverless Python infrastructure is exactly what AI developers need at scale—let us help you dominate the enterprise AI market and turn developer adoption into your growth multiplier.
 
-**Cursor/Anysphere:**
-"Cursor's AI-first editing is becoming the go-to for student engineers—we'd love to help accelerate campus adoption and refine your university go-to-market strategy."
+Cursor's AI-first editing is becoming the go-to for student engineers—let us help you own campus adoption and make Berkeley your developer showcase.
 
-**Kalshi:**
-"Congrats on your CFTC election contracts win and xAI partnership—we can help engineer Gen-Z acquisition strategies to scale these prediction markets."
+Your G1 smart glasses are genuinely disrupting premium AR against Meta—let us help you crack the early adopter code and make Berkeley developers your AR ecosystem champions.
 
-**Cognition AI:**
-"Devin's autonomous coding capabilities are game-changing for developers. We'd love to help craft university-to-enterprise pilots that turn benchmark performance into customer wins."
+We're absolutely thrilled by Conversational AI 2.0's real-time voice stack—let us help you nail the telehealth GTM and pricing so Eleven Labs owns healthcare voice agents.
 
-## Instructions:
-1. Use the 2 search results to find recent developments and understand their core business
-2. Be specific with names, numbers, and technical details
-3. Keep total length under 35 words
-4. VARY your university market angle and VSS value proposition - don't repeat the same phrases
-5. For tech companies, consider "Berkeley developer adoption" as a specific angle
+Your lightning-fast workflows and new Linear for Agents features show relentless focus on developer flow. We'd love to design data-backed go-to-market tests that turn these innovations into your next growth wave.
 
-## CRITICAL OUTPUT REQUIREMENT:
+Your rollout of fractional bond trading, laddered Treasury Accounts, and even alternative-asset shares brilliantly lowers the bar for first-time fixed-income and alts investors. We'd love to help amplify adoption of these offerings among Gen-Z through data-backed growth experiments and targeted partner playbooks this semester.
+
+I'm thrilled about Vercel's recent AI SDK 5 release and the new 300-second Edge Function runtime—both game-changers for building AI-native Next.js experiences—and would love to help accelerate developer adoption and fine-tune the go-to-market around them.
+
+Instructions:
+Use the 2 search results to find what makes their product/approach compelling and any strategic developments
+Focus on their unique value proposition or competitive advantage
+Be specific with product names, technical capabilities, and what sets them apart
+Keep total length under 35 words
+VARY your university market angle and VSS value proposition - don't repeat phrases
+Show genuine enthusiasm for their technology/approach
+
+CRITICAL OUTPUT REQUIREMENT:
 Return ONLY the 1-2 sentence cold email intro (25-35 words). Do NOT include:
 - "I'll search for information about..."
 - "Based on the search results..."
@@ -104,4 +116,5 @@ Return ONLY the 1-2 sentence cold email intro (25-35 words). Do NOT include:
 - Any other commentary, explanations, or prefacing text
 
 Output ONLY the direct cold email intro sentences.
+I REPEAT: Output ONLY the direct cold email intro sentences.
 """
